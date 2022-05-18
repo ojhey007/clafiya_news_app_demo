@@ -9,7 +9,6 @@ class HomeController extends GetxController {
 
   RxList<Article> newslist = <Article>[].obs;
   late List<Article> news;
-  // RxList<CategoriesModel> categories = <CategoriesModel>[].obs;
   @override
   void onInit() {
     getNews();
@@ -18,7 +17,6 @@ class HomeController extends GetxController {
 
   getNews() async {
     news = await container.get<NewsService>().getNews();
-    print(news);
     newslist.assignAll(news);
     isLoading.value = false;
   }

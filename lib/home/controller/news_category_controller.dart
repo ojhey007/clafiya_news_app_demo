@@ -10,7 +10,7 @@ class NewsCategoryController extends GetxController {
 
   getNewsCategory(String category) async {
     isCategoryLoading.value = false;
-    news = await container.get<NewsService>().getNewsForCategory(category);
+    news = await container.get<NewsService>().getNews(category);
     newsCategorylist.assignAll(news);
   }
 }

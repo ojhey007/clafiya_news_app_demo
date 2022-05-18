@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
                     () => SingleChildScrollView(
                       child: Column(
                         children: <Widget>[
-                          // Categories
+                          // Categories swipable horizontally
                           Container(
                             padding: const EdgeInsets.symmetric(horizontal: 16),
                             height: 70,
