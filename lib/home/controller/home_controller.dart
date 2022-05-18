@@ -1,6 +1,8 @@
 import 'package:get/get.dart';
 import 'package:news_app_demo/app_global_util/app_setup.dart';
+import 'package:news_app_demo/home/model/article_model.dart';
 import 'package:news_app_demo/home/model/category_model.dart';
+import 'package:news_app_demo/home/service/home_service.dart';
 
 class HomeController extends GetxController {
   RxBool isLoading = true.obs;

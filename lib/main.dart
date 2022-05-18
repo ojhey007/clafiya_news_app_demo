@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:news_app_demo/app_global_util/app_setup.dart';
+import 'package:news_app_demo/home/view/home.dart';
 
 final RouteObserver<PageRoute> routeObserver = RouteObserver<PageRoute>();
 void main() {

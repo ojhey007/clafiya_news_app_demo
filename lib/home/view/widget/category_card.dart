@@ -1,5 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:news_app_demo/app_global_util/nav_util.dart';
+import 'package:news_app_demo/home/view/news_category.dart';
 
 class CategoryCard extends StatelessWidget {
   final String imageAssetUrl, categoryName;
