@@ -7,10 +7,6 @@ class NewsCategoryController extends GetxController {
   RxBool isCategoryLoading = true.obs;
   RxList<Article> newsCategorylist = <Article>[].obs;
   late List<Article> news;
-  @override
-  void onInit() {
-    super.onInit();
-  }
 
   getNewsCategory(String category) async {
     isCategoryLoading.value = false;
