@@ -1,4 +1,4 @@
-const apiKey = "44c3b416a76a43208dac0e30704ffadb";
+const apiKey = "ddb676ec8d80401a82ddd0cea2665afc";
 const country = "ng";
 const appTitle = "Clafiya NewsApp";
 const apiVersion = "2";

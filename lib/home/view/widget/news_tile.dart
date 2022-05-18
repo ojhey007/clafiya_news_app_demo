@@ -61,7 +61,7 @@ class NewsTile extends StatelessWidget {
                 Text(
                   description,
                   maxLines: 2,
-                  style: TextStyle(color: Colors.black54, fontSize: 14),
+                  style: const TextStyle(color: Colors.black54, fontSize: 14),
                 )
               ],
             ),

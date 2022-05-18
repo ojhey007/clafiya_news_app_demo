@@ -12,7 +12,8 @@ class AppBarMenu extends StatelessWidget {
         children: <Widget>[
           Text(
             appTitle,
-            style: TextStyle(color: Colors.blue, fontWeight: FontWeight.w600),
+            style: const TextStyle(
+                color: Colors.blue, fontWeight: FontWeight.w600),
           )
         ],
       ),
