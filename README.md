@@ -3,14 +3,20 @@
 A new Flutter project.
 
 ## Getting Started
+# Clone the repository
+# Cd to the app root directory
+# Run  flutter run 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# news_app_demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# This is a demo News app, which incorporates a clean achitecture cloding pattern. (MVVM)
+The following tools are used on this project
+# State mangement :GETX
+# Dependency Injection: GET_IT
+# WebView :WEBVIEW_FLUTTER
+# HTTP Clients :DIO
+# Build on Flutter 3.0
+# MIN-Android-SDK : 19
+# API resource :NewsApi.org
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
