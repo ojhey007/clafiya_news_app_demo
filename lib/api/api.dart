@@ -10,9 +10,9 @@ class Api {
     dio.interceptors.add(InterceptorsWrapper(onRequest: (RequestOptions options,
         RequestInterceptorHandler requestInterceptorHandler) {
       "======================================================================>";
-      debugPrint("REQUEST HEADERS ==============>  ${options.headers}");
-      debugPrint("REQUEST URI ==============>  ${options.uri}");
-      debugPrint("REQUEST DATA ==============>  ${options.data}");
+      // debugPrint("REQUEST HEADERS ==============>  ${options.headers}");
+      // debugPrint("REQUEST URI ==============>  ${options.uri}");
+      // debugPrint("REQUEST DATA ==============>  ${options.data}");
       "======================================================================>";
       return requestInterceptorHandler.next(options); //continue
     }, onResponse:
